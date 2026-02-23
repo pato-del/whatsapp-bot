@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-bot-ultra",
+  "version": "1.0.0",
+  "description": "Multi-user WhatsApp bot with downloads, EPL, stickers, and group tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-user",
+    "baileys",
+    "downloads",
+    "epl"
+  ],
+  "author": "Mornigstar",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.6.0",
+    "ytdl-core": "^4.11.5",
+    "qrcode": "^1.5.1"
+  }
+}
