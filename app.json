@@ -1,0 +1,19 @@
+{
+  "name": "~Mornigstar",
+  "description": "Multi-user WhatsApp bot with downloads, EPL, stickers, and group tools",
+  "repository": "https://github.com/pato-del/whatsapp-bot-ultra",
+  "stack": "container",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "OWNER": {
+      "description": "Your WhatsApp number with country code (no +, include @s.whatsapp.net)",
+      "value": "254704651919@s.whatsapp.net"
+    },
+    "FOOTBALL_API_KEY": {
+      "description": "API key for EPL standings",
+      "value": "YOUR_API_KEY"
+    }
+  }
+}

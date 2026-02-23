@@ -1,0 +1,6 @@
+build:
+  docker:
+    web: Dockerfile   # Use the Dockerfile we created to build the container
+
+run:
+  web: node index.js  # Command to start the bot
